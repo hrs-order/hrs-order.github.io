@@ -26,7 +26,7 @@ angular.element(function () {
 
 myApp.config(["$stateProvider", "$urlRouterProvider", "$mdAriaProvider", function ($stateProvider, $urlRouterProvider, $mdAriaProvider) {
     $mdAriaProvider.disableWarnings();
-    $urlRouterProvider.otherwise("/sprint");
+    $urlRouterProvider.otherwise("/order");
     $stateProvider.state({
         name: "main",
         url: "",
