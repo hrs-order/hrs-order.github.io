@@ -83,7 +83,7 @@
                 var stateService = $state.router.stateService;
                 var currentStateConfig = stateService.get(currentState.name);
                 if (currentStateConfig.requiredAuth) {
-                    $state.go("main.sprint");
+                    $state.go("main.login");
                 }
             }
 
